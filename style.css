@@ -751,7 +751,9 @@ form {
   line-height: 1.5;
   font-size: 12px;
   margin-top: 5px;
+  margin-left: 10px;
   opacity: 0.6;
+  text-align: left;
 }
 
 .quote {
