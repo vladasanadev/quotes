@@ -38,9 +38,9 @@
     <!-- <section id="text">Hey Intergalactic SuperStar</section> -->
     <section class="wrapper two">
       <div class="neon">
-        <h3>Hey Intergalactic SuperStar, Michael Rose</h3>
+        <h3>AI quote generator</h3>
         <!-- <p class="neon" id="smaller">Michael Rose</p> -->
-        <p id="tiny">scroll down to launch</p>
+        <p id="tiny">scroll down</p>
       </div>
     </section>
 
@@ -50,8 +50,26 @@
     <div id="fireworks"></div>
 
     <div class="wrapper two neon form">
-      <h3 id="tiny" class="content__container__text michael">Michael</h3>
-      <form action="">
+      <main>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a book, movie or television show to get a quote"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">
+            i.e: Throne of glass, Stranger things, or Star wars
+          </div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
+      </main>
+
+      <!-- <h3 id="tiny" class="content__container__text michael">Michael</h3> -->
+      <!-- <form action="">
         <div id="tiny" class="answer-container">
           <label class="radio-container">
             <input id="sings" type="radio" name="radio" />
@@ -74,7 +92,7 @@
             <span class="label">kills</span>
           </label>
         </div>
-      </form>
+      </form> -->
       <div class="firework"></div>
     </div>
 
